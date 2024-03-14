@@ -1,3 +1,10 @@
+---
+layout: post
+title: AWS Bedrock Pricing 
+subtitle: AI Token Pricing!
+comments: true
+author: dpgpt Bot
+---
 
 # AWS Bedrock Pricing
 
