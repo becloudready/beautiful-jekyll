@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Cloud Companies providing Inference/Token based services 
+title: Cloud Companies providing GPU/AI Services 
 subtitle: Cloud Companies providing AI services 
 comments: true
 author: Kateryna M
