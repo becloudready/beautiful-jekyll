@@ -28,7 +28,7 @@ author: Kateryna M
 ## Introduction
 The NVIDIA Blackwell architecture introduces a significant leap forward in generative AI accelerator technology, incorporating the B200 and B100 accelerators. Named in honor of Dr. David Harold Blackwell, a pioneer in statistics and mathematics, this next-generation architecture is designed to redefine performance, flexibility, and efficiency in the realms of datacenter and high-performance computing (HPC).
 
-![Blackwell Comparison](/assets/img/blackwell_gpu_2024.jpg)
+![Blackwell Comparison](/assets/img/blackwell_gpu_2024.png)
 
 ## Features and Capabilities
 
