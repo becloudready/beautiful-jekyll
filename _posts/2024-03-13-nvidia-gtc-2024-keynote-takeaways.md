@@ -49,4 +49,23 @@ The NVIDIA Blackwell architecture introduces a significant leap forward in gener
 ### Efficiency and Performance
 - Despite adhering to a 4nm-class TSMC 4NP manufacturing process, Blackwell achieves a 4x increase in training performance and a 30x improvement in inference performance, all while realizing 25x greater energy efficiency compared to earlier generations.
 
+## DGX B200 specifications
+
+| Specification           | Details                                                                                                   |
+|-------------------------|-----------------------------------------------------------------------------------------------------------|
+| GPU                     | 8x NVIDIA B200 Tensor Core GPUs                                                                           |
+| GPU Memory              | 1,440GB total GPU memory                                                                                  |
+| Performance             | 72 petaFLOPS training and 144 petaFLOPS inference                                                        |
+| Power Consumption       | ~14.3kW max                                                                                               |
+| CPU                     | 2 Intel® Xeon® Platinum 8570 Processors (112 Cores total, 2.1 GHz Base, 4 GHz Max Boost)                  |
+| System Memory           | Up to 4TB                                                                                                 |
+| Networking              | 4x OSFP ports serving 8x single-port NVIDIA ConnectX-7 VPI (Up to 400Gb/s InfiniBand/Ethernet)           |
+|                         | 2x dual-port QSFP112 NVIDIA BlueField-3 DPU (Up to 400Gb/s InfiniBand/Ethernet)                          |
+| Management Network      | 10Gb/s onboard NIC with RJ45, 100Gb/s dual-port ethernet NIC, Host BMC with RJ45                         |
+| Storage                 | OS: 2x 1.9TB NVMe M.2, Internal: 8x 3.84TB NVMe U.2                                                      |
+| Software                | NVIDIA AI Enterprise, NVIDIA Base Command™, DGX OS / Ubuntu                                               |
+| Rack Units (RU)         | 10 RU                                                                                                     |
+| System Dimensions       | Height: 17.5in (444mm), Width: 19.0in (482.2mm), Length: 35.3in (897.1mm)                                 |
+| Operating Temperature   | 5–30°C (41–86°F)                                                                                          |
+| Enterprise Support      | Three-year Enterprise Business-Standard Support, 24/7 portal access, Live agent support during business hours |
 
