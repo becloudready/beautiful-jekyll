@@ -30,6 +30,26 @@ The NVIDIA Blackwell architecture introduces a significant leap forward in gener
 
 ![Blackwell Comparison](/assets/img/blackwell_gpu_2024.png)
 
+## Nvidia Blackwell Chips
+
+
+| Specification                | GB200                   | B200                     | B100                     | HGX B200                  | HGX B100                  |
+|------------------------------|-------------------------|--------------------------|--------------------------|---------------------------|---------------------------|
+| **Configuration**            | 2x B200 GPU, 1x Grace CPU | Blackwell GPU             | Blackwell GPU             | 8x B200 GPU                | 8x B100 GPU                |
+| **FP4 Tensor Dense/Sparse**  | 20/40 petaflops         | 9/18 petaflops          | 7/14 petaflops          | 72/144 petaflops        | 56/112 petaflops        |
+| **FP6/FP8 Tensor Dense/Sparse** | 10/20 petaflops         | 4.5/9 petaflops         | 3.5/7 petaflops         | 36/72 petaflops         | 28/56 petaflops         |
+| **INT8 Tensor Dense/Sparse** | 10/20 petaops           | 4.5/9 petaops           | 3.5/7 petaops           | 36/72 petaops           | 28/56 petaops           |
+| **FP16/BF16 Tensor Dense/Sparse** | 5/10 petaflops          | 2.25/4.5 petaflops      | 1.8/3.5 petaflops       | 18/36 petaflops         | 14/28 petaflops         |
+| **TF32 Tensor Dense/Sparse** | 2.5/5 petaflops         | 1.12/2.25 petaflops     | 0.9/1.8 petaflops       | 9/18 petaflops          | 7/14 petaflops          |
+| **FP64 Tensor Dense**        | 90 teraflops            | 40 teraflops            | 30 teraflops            | 320 teraflops           | 240 teraflops           |
+| **Memory**                   | 384GB (2x8x24GB)        | 192GB (8x24GB)          | 192GB (8x24GB)          | 1536GB (8x8x24GB)       | 1536GB (8x8x24GB)       |
+| **Bandwidth**                | 16 TB/s                 | 8 TB/s                  | 8 TB/s                  | 64 TB/s                 | 64 TB/s                 |
+| **NVLink Bandwidth**         | 2x 1.8 TB/s             | 1.8 TB/s                | 1.8 TB/s                | 14.4 TB/s               | 14.4 TB/s               |
+| **Power**                    | Up to 2700W             | 1000W                   | 700W                    | 8000W?                  | 5600W?                  |
+
+This transposed table format allows for quick identification and comparison of each specification across the range of Nvidia Blackwell variants.
+
+
 ## Features and Capabilities
 
 ### Dual-Die Chiplet Design
