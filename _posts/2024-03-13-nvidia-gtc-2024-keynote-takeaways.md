@@ -47,8 +47,6 @@ The NVIDIA Blackwell architecture introduces a significant leap forward in gener
 | **NVLink Bandwidth**         | 2x 1.8 TB/s             | 1.8 TB/s                | 1.8 TB/s                | 14.4 TB/s               | 14.4 TB/s               |
 | **Power**                    | Up to 2700W             | 1000W                   | 700W                    | 8000W?                  | 5600W?                  |
 
-This transposed table format allows for quick identification and comparison of each specification across the range of Nvidia Blackwell variants.
-
 
 ## Features and Capabilities
 
