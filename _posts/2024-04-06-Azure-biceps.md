@@ -48,3 +48,5 @@ If it throws no error then deploy it
 az deployment group create --name my-deployment-name --resource-group rg-test --template-file template.bicep --parameters parameters.json 
 
 ```
+
+Read more: https://www.becloudready.com/post/azure-bicep-vs-terraform-streamline-your-azure-resource-management-2024
